@@ -1,0 +1,31 @@
+{
+    "files.autoSave": "onWindowChange",
+    "terminal.integrated.inheritEnv": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.formatOnType": false,
+        "editor.formatOnSave": false
+    },
+    "editor.formatOnPaste": true,
+    "git.openRepositoryInParentFolders": "always",
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "todohighlight.defaultStyle": {
+        "color": "yellow",
+        "backgroundColor": "none"
+    },
+    "todohighlight.keywordsPattern": "(//|#)\\s*(TODO|FIXME)",
+    "todohighlight.keywords": [],
+    "todohighlight.isEnable": true,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.formatOnSave": true,
+    "rust-analyzer.inlayHints.maxLength": 100,
+    "editor.fontSize": 14,
+    "terminal.integrated.commandsToSkipShell": [
+        "-workbench.action.quickOpenView"
+    ],
+    "@azure.argTenant": "",
+    "github.copilot.enable": {
+        "python": false,
+        "rust": false
+    },
+}
